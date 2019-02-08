@@ -1,4 +1,4 @@
-/* jshint esversion: 6  */
+// define smore and smoreStuff
 let smore = [];
 let smoreStuff = ['thing1', 'thing2', 'thing3'];
 
