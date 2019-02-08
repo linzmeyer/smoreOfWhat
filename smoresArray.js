@@ -30,7 +30,7 @@ smore.push ( gramcracker );
 
 function roastMallow( item ) {
 
-  if ( item === 'marshMallow' ) {
+  if ( item === 'marshmallow' ) {
 
     //roast mallow
     let flamingMallow = true;
