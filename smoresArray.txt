@@ -1,47 +1,39 @@
+HAM: "Hey, you want a smore?"
 
-HAM:
-  "Hey, you want a smore?"
+SMALLS: "Some more of what?"
 
-SMALLS:
-  "Some more of what?"
+HAM: "No, no, do you want a SMORE?"
+      *gestures at an example of a smore*
 
-HAM:
-  "No, no, do you want a SMORE?"
-  *gestures at an example of a smore*
+SMALLS: "I.. haven't had anything yet, so how can I have some more of nothing?"
 
-SMALLS:
-  "I.. haven't had anything yet, so how can I have some more of nothing?"
+H: "...YOU'RE KILLING ME SMALLS!... These are smoresStuff.
+      *gestures at an array of things on the table*
+      Kay? Pay attention."
 
-HAM:
-  "...YOU'RE KILLING ME SMALLS!... These are smoresStuff.
-  *gestures at an array of things on the table*
-  Kay? Pay attention."
+S: let smore = [];
+    let smoreStuff = ['thing1', 'thing2', 'thing3'];
 
-SMALLS' coder brain:
-  let smore = [];
-  let smoreStuff = ['thing1', 'thing2', 'thing3'];
+    // replace things with names.
+    smoreStuff.splice(0, smoreStuff.length, 'gramcracker', 'chocolate', 'marshMallow');
 
-  // replace things with names.
-  smoreStuff.splice(0, smoreStuff.length, 'gramcracker', 'chocolate', 'marshMallow');
+    // create new vars with relateable names that correlate with smoreStuff elements.
+    let gramcracker = smoreStuff[0];
+    let chocolate = smoreStuff[1];
+    let marshMallow = smoreStuff[2];
 
-  // create new vars with relateable names that correlate with smoreStuff elements.
-  let gramcracker = smoreStuff[0];
-  let chocolate = smoreStuff[1];
-  let marshMallow = smoreStuff[2];
+H: "First, you take the gram."
 
-HAM:
-  "First, you take the gram."
-    SMALLS:
-    smore.push( gramcracker );
+S: smore.push( gramcracker );
 
-  "You stick the chocolate on the gram."
-    SMALLS:
-    smore.push( chocolate );
+H: "You stick the chocolate on the gram."
 
-  "Then, you roast the mallow"
-    SMALLS:
+S: smore.push( chocolate );
 
-    // define roastedMallow function
+H: "Then, you roast the mallow"
+
+S: // define roastedMallow function:
+
     function roastMallow( item ) {
 
       if ( item === 'marshMallow' ) {
@@ -61,17 +53,17 @@ HAM:
     // call roastedMallow function
     marshMallow = roastMallow( marshMallow );
 
-HAM
-  "When the mallow's flamin'..."
-  *blows out flame*
-  "...you stick it on the chocolate."
-    SMALLS:
-    smore.push( marshMallow );
+H: "When the mallow's flamin'..."
+    *blows out flame*
+    "...you stick it on the chocolate."
 
-  "Then. you cover it with the other end."
-    SMALLS:
-    smore.push ( gramcracker );
+S: smore.push( marshMallow );
 
-  "Then, you STUFF!"
+H: "Then. you cover it with the other end."
 
-source: https://www.youtube.com/watch?v=XlddDZkkxCc
+S: smore.push ( gramcracker );
+
+H: "Then, you STUFF!"
+
+
+SOURCE: https://www.youtube.com/watch?v=XlddDZkkxCc
